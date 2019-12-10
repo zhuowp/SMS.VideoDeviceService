@@ -154,10 +154,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="HikDeviceManager.cpp" />
     <ClCompile Include="SMS.VideoDeviceService.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dev_public_def.h" />
+    <ClInclude Include="HikDeviceManager.h" />
+    <ClInclude Include="NET_DEV_DEF.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

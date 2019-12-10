@@ -21,10 +21,16 @@
     <ClCompile Include="SMS.VideoDeviceService.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="HikDeviceManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dev_public_def.h">
+    <ClInclude Include="NET_DEV_DEF.h">
       <Filter>头文件\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="HikDeviceManager.h">
+      <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
