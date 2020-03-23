@@ -1,5 +1,6 @@
 #include "HikDeviceManager.h"
 #include <iostream>
+using namespace std;
 
 HikDeviceManager::HikDeviceManager()
 {

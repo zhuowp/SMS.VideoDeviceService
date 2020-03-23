@@ -28,8 +28,7 @@ int main()
 	HikDeviceManager hikDevManager;
 	LONG lUserID = hikDevManager.DeviceLogin(ip, port, name, password);
 
-	string a;
-	cin >> a;
+	std::getchar();
 
 	NET_DVR_Logout_V30(lUserID);
 }
